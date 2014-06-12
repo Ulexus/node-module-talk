@@ -1,9 +1,9 @@
-console.log("main execution:\n",module.paths);
+moduleA = require('moduleA');
+moduleB = require('moduleB');
+moduleC = require('moduleC');
+moduleD = require('moduleD');
 
-require('submodule');
-
-module.paths.unshift(__dirname+'/lib');
-
-console.log("modified:\n",module.paths);
-
-require('libmodule');
+console.log('moduleA:\n',moduleA);
+console.log('moduleB:\n',moduleB);
+console.log('moduleC:\n',moduleC);
+console.log('moduleD:\n',moduleD);
