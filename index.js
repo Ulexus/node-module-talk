@@ -1,3 +1,1 @@
-mymod = require('mymod');
-
-console.log(mymod);
+console.log(module);
