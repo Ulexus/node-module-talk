@@ -1,9 +1,3 @@
-moduleA = require('moduleA');
-moduleB = require('moduleB');
-moduleC = require('moduleC');
-moduleD = require('moduleD');
+uuid = require('uuid');
 
-console.log('moduleA:\n',moduleA);
-console.log('moduleB:\n',moduleB);
-console.log('moduleC:\n',moduleC);
-console.log('moduleD:\n',moduleD);
+console.log('new uuid:',uuid.v1());
